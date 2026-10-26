@@ -1,0 +1,8 @@
+A = float(input())
+total = 0.0
+K = 1
+while total <= A:
+    total += 1 / K
+    K += 1
+print(K)
+print(total)

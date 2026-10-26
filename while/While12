@@ -1,0 +1,8 @@
+N = int(input())
+total = 0
+K = 0
+while total + (K + 1) <= N:
+    K += 1
+    total += K
+print(K)
+print(total)
